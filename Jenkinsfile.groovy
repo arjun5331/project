@@ -1,8 +1,7 @@
 def drpipeline = [
     module: 'dr-web-ui',
     imgName: 'drui',
-    # paramFile: "src/environments/environment.ts", 
-    # current_env: '',
+    
     ]
 @Library("microservice-shared-library") _
 drsetparams(drPipeline)
